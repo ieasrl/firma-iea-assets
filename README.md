@@ -1,6 +1,7 @@
 # Recursos de la firma corporativa IEA
 
-Este repositorio publica las imágenes utilizadas por la firma dinámica de Exchange Online.
+Todos los archivos de este paquete deben subirse directamente a la raíz del repositorio.
+No suba el ZIP sin descomprimir y no cree una carpeta adicional.
 
-No cambiar los nombres de los archivos después de instalar la firma en Exchange.
-
+Después de subirlos, `index.html`, `iea-logo-stacked-dark.png` y los demás PNG deben
+aparecer juntos en la página principal del repositorio.

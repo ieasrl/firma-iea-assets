@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Firma corporativa IEA</title>
+  <style>
+    body{margin:0;padding:24px;font-family:Arial,Helvetica,sans-serif;color:#263442;background:#fff}
+    .brand{color:#1769aa;font-size:21px;font-weight:700;margin:0 0 10px}
+    p{font-size:14px;line-height:1.5;margin:0 0 16px}
+    button{border:0;border-radius:4px;padding:10px 16px;background:#1769aa;color:#fff;font-weight:700;cursor:pointer}
+    button:disabled{opacity:.55;cursor:wait}.status{margin-top:16px;font-size:13px}.ok{color:#237804}.error{color:#b42318}
+  </style>
+</head>
+<body>
+  <div class="brand">Firma corporativa IEA</div>
+  <p>La firma se agrega automáticamente al crear, responder o reenviar un correo y usa los datos del perfil conectado en Entra ID.</p>
+  <button id="test-signature" type="button">Probar e insertar firma</button>
+  <div id="status" class="status" aria-live="polite"></div>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="taskpane.js"></script>
+</body>
+</html>
